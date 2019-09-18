@@ -1,0 +1,82 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "MS PGothic";
+    cursor: default;
+    letter-spacing: 0.15vh;
+}
+
+#header {
+    height: 20vh;
+    height: fit-content;
+    width: 100%;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgb(200,200,200);
+    padding-bottom: 7vh;
+}
+
+#header #centered-content {
+    height: fit-content;
+    width: fit-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+#header #centered-content img {
+    height: 10vh;
+    margin-top: 5vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#header #centered-content #button-ribbon {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 5vh;
+}
+
+#header #centered-content #button-ribbon button {
+    border-style: none;
+    background-color: transparent;
+    font-family: "MS PGothic";
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: all 150ms ease-in-out;
+    letter-spacing: 0.4vh;
+}
+
+#header #centered-content #button-ribbon button:hover {
+    cursor: pointer;
+}
+
+#header #right-content {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    right: 0;
+    position: absolute;
+}
+
+#header #right-content #login-button {
+    height: fit-content;
+    width: fit-content;
+    transform: translateX(-20%);
+}
+
+#header #right-content #login-button i {
+    display: inline-block;
+}
+
+#header #right-content #login-button span {
+    line-height: 20px;
+    transform: translateY(-27%);
+    display: inline-block;
+    margin-left: 0.7vh;
+}
